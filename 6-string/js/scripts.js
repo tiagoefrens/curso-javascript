@@ -1,14 +1,11 @@
-var numero = 5;
-console.log(numero);
-console.log(typeof numero);
+var nome  = "Tiago";
+var sobrenome= "Martins"
+var NomeCompleto = nome + " " + sobrenome;
 
+console.log(nome);
+console.log(typeof nome);
+console.log(NomeCompleto)
 
+document.write("Olá");
 
-var TextoComNumero = '5tt';
-console.log(TextoComNumero);
-console.log(typeof TextoComNumero);
-
-console.log(NaN);
-console.log(typeof NaN);
-console.log(typeof +Infinity);
-console.log(typeof -Infinity);
+document.write("Ele disse 'Olá'");
