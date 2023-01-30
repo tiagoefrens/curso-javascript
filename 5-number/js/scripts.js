@@ -1,16 +1,14 @@
-var teste = 1;
+var numero = 5;
+console.log(numero);
+console.log(typeof numero);
 
-teste = 'Matheus';
 
-console.log(teste);
 
-var MeuPrimeiroNome = 'Tiago'; //camelCase
-console.log(MeuPrimeiroNome);
+var TextoComNumero = '5tt';
+console.log(TextoComNumero);
+console.log(typeof TextoComNumero);
 
-/*Outras formas de declarar variáveis
-
-let =
-
-const =
-
-*/
+console.log(NaN);
+console.log(typeof NaN);
+console.log(typeof +Infinity);
+console.log(typeof -Infinity);
