@@ -1,14 +1,9 @@
-var numero = 5;
-console.log(numero);
-console.log(typeof numero);
+var arr = [5, "Tiago",true, {teste:1, teste: 2}];
 
+console.log(arr);
 
+var arr2 = [2,3,4,5];
+console.log(arr2);
+console.log(arr2[1])
 
-var TextoComNumero = '5tt';
-console.log(TextoComNumero);
-console.log(typeof TextoComNumero);
-
-console.log(NaN);
-console.log(typeof NaN);
-console.log(typeof +Infinity);
-console.log(typeof -Infinity);
+arr2[4] = 10;
