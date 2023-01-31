@@ -1,11 +1,15 @@
-var nome  = "Tiago";
-var sobrenome= "Martins"
-var NomeCompleto = nome + " " + sobrenome;
+var obj = {
+    nome: "Tiago",
+    idade:27,
+    profissao:"Programador"
+};
 
-console.log(nome);
-console.log(typeof nome);
-console.log(NomeCompleto)
+console.log(obj);
 
-document.write("Olá");
+console.log(typeof obj);
 
-document.write("Ele disse 'Olá'");
+console.log(obj.nome);
+console.log(obj.idade);
+console.log(obj.profissao);
+
+console.log("O meu nome é " + obj.nome)
