@@ -1,11 +1,14 @@
-var idade = 17;
+var idade = 18;
+var possuicarro = 1;
 
-console.log("Antes do IF");
 
-if(idade > 18){
+
+if(idade >= 18){
     console.log("Pode fazer a carteira de habilitação");
 } else{
     console.log("Não pode fazer carteira de habilitação")
 }
+if(possuicarro){
+    console.log("Pode andar de carro!")
+}
 
-console.log("Depois do IF")
