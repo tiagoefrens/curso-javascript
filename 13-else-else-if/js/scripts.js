@@ -1,14 +1,13 @@
-var idade = 18;
-var possuicarro = 1;
+var nome = "Lucas";
 
 
+if(nome == "Tiago"){
+    console.log("O nome dele é Tiago");
+}else if(nome=="Matheus"){
+    console.log("O nome é Matheus")
 
-if(idade >= 18){
-    console.log("Pode fazer a carteira de habilitação");
+
 } else{
-    console.log("Não pode fazer carteira de habilitação")
-}
-if(possuicarro){
-    console.log("Pode andar de carro!")
+    console.log("Ele possui outro nome!")
 }
 
