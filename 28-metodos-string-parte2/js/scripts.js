@@ -2,8 +2,8 @@
 
 var frase = "Esta é a frase que vamos manipular";
 
-console.log(frase.toLocaleLowerCase());
-console.log(frase.toLocaleUpperCase());
+console.log(frase.toLowerCase());
+console.log(frase.toUpperCase());
 
 //trim - Retira espaços
 
