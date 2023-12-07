@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+    box-sizing: border-box;
+}
+
+div.container{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , 50%);
+    min-width: 90vw;
+    text-align: center;
+}
+
+.vermelho{
+    background-color: red;
+    color: #fff;
+    transition: .5s;
+   
+}
+
+.azul{
+    background-color: blue;
+    color: #fff;
+    transition: .5s;
+  
+}
+
+.verde{
+    background-color: green;
+    color: #fff;
+    transition: .5s;
+    
+}
+
+button{
+    font-size: 30px;
+    font-weight: 100;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
