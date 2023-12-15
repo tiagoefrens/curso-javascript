@@ -3,7 +3,7 @@ const turnOff = document.getElementById('turnOff');
 const lamp = document.getElementById('lamp');
 
 function isLampBroken(){
-    return lamp.src.indexOf ('quebrada') > -1
+    return (lamp.src.indexOf ('quebrada') > -1)
 }
 
 function lampBroken(){
@@ -14,6 +14,7 @@ function lampBroken(){
 function lampOff(){
     if( !isLampBroken () ){
         lamp.src="./img/desligada.jpg";
+        
     } 
     
 }
